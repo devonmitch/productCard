@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+.top-left {
+  position:absolute;
+  top:1px;
+  left:0px;
+  padding: 10px;
+  background: rgba(178,34,34);
+  margin-right: 6px;
+  font-weight: bold;
+  color: white;
+}
+img {
+  width: 200px;
+}
+
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 40px -20px rgba(0,0,0,.4);
+}
+
+#gaming {
+  width: 300px;
+}
+
+#description {
+  padding: 10px;
+}
+
+.faded {
+  opacity: .5;
+}
+
+.subhead {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#description {
+  margin-top: 10px;
+}
+
+#console {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#tags {
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  background: #efefef;
+}
+
+footer p:first-child {
+  font-weight: bold;
+  margin: 10px 0;
+  opacity: .7;
+}
+
+footer p.faded {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer p.orange{
+  color:orange;
+}
